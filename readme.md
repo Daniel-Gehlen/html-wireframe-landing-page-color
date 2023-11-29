@@ -1,80 +1,30 @@
-# Report on the Construction of the Landing Page and Figma Wireframe
+# Design System Development Report Using Figma
 
-## Introduction
+## 1. Introduction
 
-The developed landing page aims to present a product or service impactfully, providing concise information about the company, highlighting features, customer testimonials, and encouraging users to contact or learn more about the product/service. The construction process involved creating a medium-fidelity wireframe in Figma, which served as a basis for implementation in HTML/CSS.
+The design system is a structured and consistent approach to user interface development, aiming to create a cohesive and efficient experience for end-users. In this report, we will describe the developed design system, emphasizing the importance of a unified methodology in interface creation.
 
-![Landin Page](assets/img/Landing-Page-1.jpg)
-
-## Methods
-
-### Figma Wireframe
-
-The first step was to create a medium-fidelity wireframe using the Figma design tool. This wireframe defined the structure of the landing page, the positioning of elements, colors, and basic styles. During this phase, principles of user interface (UI) design were considered to ensure an intuitive and pleasant user experience.
-
-### Implementation in HTML/CSS
-
-Based on the wireframe, the next step was to translate the design into code. We used HTML to structure the page content and CSS to style and position the elements. Best practices in web development were applied, such as responsiveness for different screen sizes and optimization to ensure fast page loading.
-
-## Results
-
-The resulting landing page features a visually appealing and intuitive design. Sections are logically organized, with emphasis on the impactful title, company information, key features, customer testimonials, and a contact form. Responsiveness was implemented, ensuring a consistent experience across various devices.
-
-The Figma wireframe was crucial for the project's success, providing a clear view of the structure before implementation. The transition from Figma to code was smooth, with the wireframe serving as a guide for development.
-
-## Conclusion
-
-The construction of the landing page was successful, resulting in a visually attractive and functional project. The use of Figma to create the wireframe provided a clear vision of the design before implementation, saving time and facilitating collaboration among team members. The web development approach used demonstrates the practical application of design and coding concepts to create an engaging user experience.
-
-## Use Case
-
-**Use Case: XYZ Technology Company - Launch of a New Product**
-
-The landing page was developed for XYZ Technology Company as part of the launch of a new product. The page serves as a central point for potential customers to gather information about the product, explore its features, and contact the company. The integrated contact form facilitates lead generation, while customer testimonials highlight user satisfaction.
-
-The modern and responsive design of the landing page reflects the innovative image of the company, contributing to the success of the product launch and increasing XYZ's online visibility.
-
-This report highlights the importance of an integrated approach to design and development to create an effective and engaging online presence.
+![Landin Page](assets/img/Landing-Page-color.png)
 
 
-![Landin Page](assets/img/Landing-Page-1.jpg)
+## 2. Methods
 
-# Landing Page
+The design system development process was conducted using the Figma tool, a collaborative design platform. Initially, basic interface elements, or "atoms," such as buttons, input fields, colors, and typography, were identified. These elements were organized and cataloged to form a cohesive set of "molecules" and "organisms," encompassing more complex components.
 
-## Header
-- Soon
-- Navigation menu
+The adopted methodology was iterative, allowing constant review and refinement of the design system as new components and patterns were added. Effective collaboration between designers and developers was facilitated by Figma, enabling simultaneous creation and real-time visualization of changes.
 
-## Featured Section
-- Impactful title
-- Brief description of the product/service
-- Call to action (CTA) button
+## 3. Results
 
-## About Us
-- Brief description of the company
-- Representative image
+The resulting design system features a modular and reusable structure, providing visual consistency throughout the project. Each element, from atoms to complete pages, follows the defined design guidelines, streamlining the development process and enhancing team efficiency.
 
-## Key Features
-- Feature list
-- Icons or illustrative images
+A specific use case involves creating a user profile page. Atoms, such as buttons and input fields, were combined to form molecules (e.g., a profile editing form) and organisms (the complete profile page). The color palette, inspired by jewel tones, was consistently applied, providing a visually pleasing and unique aesthetic.
 
-## Depositions
-- Quotes from satisfied customers
-- Photos and names of customers
+## 4. Conclusion
 
-## Demonstration
-- Video or GIF showing the product/service in action
+Developing a design system using Figma proved crucial in ensuring consistency, efficiency, and effective collaboration among team members. The modular approach allowed easy expansion of the system as the project evolved. The Figma tool played a fundamental role, enabling instant visualization of changes, accelerating the design and development process.
 
-## Pricing Plan
-- Table with different plans and prices
-- Highlight the recommended plan
+The specific use case demonstrates the practical applicability of the design system, highlighting how modular elements can be combined to efficiently create complex interfaces.
 
-## Contact
-- Contact Form
-- Contact information (phone, email)
+In summary, the developed design system provided significant benefits in visual cohesion, development efficiency, and effective collaboration, illustrating the importance of this approach in creating high-quality user experiences.
 
-## Baseboard
-- Links to social networks
-- Useful links
-- Copyright information
 
