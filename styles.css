@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0E488B;
+}
+
+header {
+    background-color: #021442;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff; /* Código hexadecimal para azul, você pode alterar para a cor desejada */
+    text-decoration: none; /* Remove o sublinhado */
+
+}
+
+
+section {
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+section h1 {
+    color: #30ADC0;
+    font-size: 2em;
+}
+
+section p {
+    color: #fff;
+}
+
+section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #021442;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+blockquote {
+    padding-left: 10px;
+    font-style: italic;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#precos {
+    background-color: #021442;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #021442;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+footer li {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.cta-button {
+    background-color: #20911E;
+}
+/* Adiciona regras para telas médias (768px a 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    section {
+        margin: 10px;
+    }
+}
+
+/* Adiciona regras para telas pequenas (até 767px) */
+@media only screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        font-size: 1.5em;
+        margin-left: auto;
+    }
+
+    .mobile-nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .mobile-nav ul.show {
+        display: flex;
+    }
+}
