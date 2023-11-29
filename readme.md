@@ -13,6 +13,8 @@ The design system development process was conducted using the Figma tool, a coll
 
 The adopted methodology was iterative, allowing constant review and refinement of the design system as new components and patterns were added. Effective collaboration between designers and developers was facilitated by Figma, enabling simultaneous creation and real-time visualization of changes.
 
+![Design System](assets/img/Design-System.png)
+
 ## 3. Results
 
 The resulting design system features a modular and reusable structure, providing visual consistency throughout the project. Each element, from atoms to complete pages, follows the defined design guidelines, streamlining the development process and enhancing team efficiency.
